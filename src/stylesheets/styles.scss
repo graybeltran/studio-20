@@ -1,9 +1,217 @@
 // Add your styles here
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-h1 {
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+#container {
+  max-width: 80em;
+  margin: auto;
+}
+
+header, nav, footer {
+  padding: 1em;
+}
+
+h1,h2, h3,nav {
+  font-family: Raleway;
+}
+
+h1{
+  font-size: 4.5em;
+  text-align: center;
   font-family: Raleway;
   color: purple;
 }
 
+h2{
+  font-size: 1.5em;
+  color:grey;
+  line-height: 1.6em;
+}
+
+h3{
+  font-size:2.5em;
+  text-align: center;
+  color: white;
+  margin-top: 3em;
+}
+
+p{
+  font-family: Quattrocento;
+  font-size:25px;
+  color: grey;
+  line-height: 150%;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  font-size: 0.8em;
+}
+
+
+nav > a {
+  margin-right: 2em;
+}
+
+
+nav {
+  background: black;
+  background: linear-gradient(#555555, black, black);
+  width: 100%;
+  height: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul.nav-list {
+   display: flex;
+   list-style-type: none;
+   margin-left: 0;
+   padding-left: 0;
+ }
+
+li.nav-item {
+   font-weight: bolder;
+   font-size: 1.1em;
+   line-height: 0.5em;
+   margin-right: 15%;
+ }
+
+a.nav:link, a.nav:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a.nav:active {
+  color: lightgray;
+}
+
+a.nav:hover {
+  color: gray;
+}
+
+a.nav:active {
+  color: lightgray;
+}
+
+.selected {
+  background-color: yellow;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.3em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 500ms;
+  margin-top: 0;
+}
+
+.lisatext{
+  width: 60%;
+  margin:auto;
+}
+
+article {
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+article > p {
+  font-size: 1.2em;
+}
+
+article > p:first-child {
+  margin-top: 0;
+}
+
+article > p:last-child {
+  margin-bottom: 0;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #E4E4E4;
+}
+
+a:active {
+  background-color:#C9C7C7;
+}
+
+a.seasons:hover {
+  background-color: initial;
+}
+
+@media (min-width: 45em) {
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  article {
+    padding-top: 0;
+  }
+
+}
+
+/* modal cursor */
+img.season, img.modal-content {
+  cursor: pointer;
+}
+
+img.banner{
+  width:100%;
+}
+
+/* modal background */
+.modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; /* full width */
+  height: 100vh; /* full height */
+  z-index: 1; /* top layer */
+  background-color: rgba(0, 0, 0, 0.9); /* black w/opacity */
+  /*display: flex;*/ /* to be applied with JS */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto; /* scroll if needed */
+}
+
+/* modal content */
+.modal-content {
+  width: 90%;
+  height: auto;
+  max-width: 750px;
+  border-radius: 10px;
+}
+
+.modal-text {
+  color: white;
+}
+
+img.video{
+  width:100%;
+}
