@@ -9,7 +9,7 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'The Great Divide',
+  site_name: 'Static Site Boilerplate',
 
   // Your website's description, used for favicon meta tags
   site_description: 'A modern boilerplate for static website development',
