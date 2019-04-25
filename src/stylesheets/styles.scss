@@ -1,55 +1,150 @@
+@import url("//hello.myfonts.net/count/393dcf");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Cardo|PT+Serif|Sumana|Amiri");
 
-        .container{
-          width: 100%;
-          background: #000000;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-76BoldItalic";
+  src: url("../fonts/webfonts/393DCF_0_0.eot");
+  src: url("../fonts/webfonts/393DCF_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_0_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_0_0.woff") format("woff"), url("../fonts/webfonts/393DCF_0_0.ttf") format("truetype");
+}
 
-        .logo{
-        float:left;
-        width:6%;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-55Roman";
+  src: url("../fonts/webfonts/393DCF_1_0.eot");
+  src: url("../fonts/webfonts/393DCF_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_1_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_1_0.woff") format("woff"), url("../fonts/webfonts/393DCF_1_0.ttf") format("truetype");
+}
 
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #000000;
-          position: sticky;
-          margin-top:0;
-          float:center;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-56Italic";
+  src: url("../fonts/webfonts/393DCF_2_0.eot");
+  src: url("../fonts/webfonts/393DCF_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_2_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_2_0.woff") format("woff"), url("../fonts/webfonts/393DCF_2_0.ttf") format("truetype");
+}
 
-        li {
-          float: left;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-46LightItalic";
+  src: url("../fonts/webfonts/393DCF_3_0.eot");
+  src: url("../fonts/webfonts/393DCF_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_3_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_3_0.woff") format("woff"), url("../fonts/webfonts/393DCF_3_0.ttf") format("truetype");
+}
 
-        li a {
-          font-family:arial;
-          font-size:12px;
-          display: block;
-          color: white;
-          padding: 16px 20px;
-          text-decoration: none;
-          text-transform: uppercase;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-45Light";
+  src: url("../fonts/webfonts/393DCF_4_0.eot");
+  src: url("../fonts/webfonts/393DCF_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_4_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_4_0.woff") format("woff"), url("../fonts/webfonts/393DCF_4_0.ttf") format("truetype");
+}
 
-        li.basic{
-        padding-left: 36%;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-75Bold";
+  src: url("../fonts/webfonts/393DCF_5_0.eot");
+  src: url("../fonts/webfonts/393DCF_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_5_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_5_0.woff") format("woff"), url("../fonts/webfonts/393DCF_5_0.ttf") format("truetype");
+}
 
-        li.social{
-        float:right;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-85Heavy";
+  src: url("../fonts/webfonts/393DCF_6_0.eot");
+  src: url("../fonts/webfonts/393DCF_6_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_6_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_6_0.woff") format("woff"), url("../fonts/webfonts/393DCF_6_0.ttf") format("truetype");
+}
 
-        li a:hover {
-          background-color: #4E4E4E;
-        }
+@font-face {
+  font-family: "CaeciliaLTPro-86HeavyItalic";
+  src: url("../fonts/webfonts/393DCF_7_0.eot");
+  src: url("../fonts/webfonts/393DCF_7_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_7_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_7_0.woff") format("woff"), url("../fonts/webfonts/393DCF_7_0.ttf") format("truetype");
+}
 
-        .active {
-          background-color: #4CAF50;
-        }
+.container {
+  width: 100%;
+  background: #000;
+}
 
-        nav{
-          position:sticky;
-        }
+.logo {
+  float: left;
+  width: 6%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  position: sticky;
+  margin-top: 0;
+  float: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  display: block;
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li.basic {
+  padding-left: 36%;
+}
+
+li.social {
+  float: right;
+}
+
+li a:hover {
+  background-color: #4e4e4e;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+nav {
+  position: sticky;
+}
+
+body {
+  background-color: #000;
+  color: #e8e8e8;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: #1f1f21;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 250%;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Cardo", sans-serif;
+  font-size: larger;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 200%;
+  color: #e8e8e8;
+  font-weight: 700;
+  padding-left: 50px;
+}
+
+p {
+  font-family: "Cardo", sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: larger;
+}
