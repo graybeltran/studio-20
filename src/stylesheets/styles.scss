@@ -143,12 +143,17 @@ h3 {
   padding-left: 50px;
 }
 
+h4 { 
+    font-family: "CaeciliaLTPro-55Roman";
+    font-size: 180%;
+    font-weight: 400;}
+
 p {
-  font-family: "Cardo", sans-serif;
+  font-family: "CaeciliaLTPro-55Roman";
   margin: 0 auto;
   max-width: 600px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: larger;
+  font-size: medium;
 }
