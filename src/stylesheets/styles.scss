@@ -83,7 +83,6 @@ li a {
 }
 
 
-
 li.basic {
   padding-left: 29%;
 }
@@ -99,8 +98,6 @@ li a:hover {
 .active {
   background-color: #4caf50;
 }
-
-
 
 body {
   background-color: #000;
@@ -139,14 +136,35 @@ h3 {
   padding-left: 50px;
 }
 
+h4 {
+  font-family: "CaeciliaLTPro-55Roman", serif;
+  font-size: 180%;
+  font-weight: 400;
+}
+
 p {
-  font-family: "Cardo", sans-serif;
+  font-family: "CaeciliaLTPro-55Roman", serif;
   margin: 0 auto;
   max-width: 600px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: larger;
+  font-size: medium;
+}
+
+/* STYLES ABOUT PAGE */
+
+#about-title {
+  text-align: center;
+  height: 150px;
+  width: 100%;
+}
+
+#about-description {
+  background-color: #041e42;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: left;
 }
 
 .first {
