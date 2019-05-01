@@ -181,6 +181,7 @@ p {
   background-color: #4e4e4e;
 }
 
+<<<<<<< HEAD
 nav {
   margin:auto;
 }
@@ -188,3 +189,64 @@ nav {
 .social{
   float:right;
 }
+=======
+.team-member {
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin-right: 5%;
+  font-family: "CaeciliaLTPro-55Roman", serif;
+  padding-bottom: 5em;
+}
+
+.team-member h3 {
+  max-width: 200px;
+  letter-spacing: -1px;
+  color: #F12224;
+  font-family: raleway;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  }
+
+.team-photo {
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  transition: 0.1s transform ease-in-out;
+}
+
+
+/* STYLES FOR STORIES PAGES */
+
+/* STYLES FOR TIMELINE */
+
+.tl-entries {
+  width:calc(100% - 80px);
+  max-width:800px;
+  margin:auto;
+  position: relative;
+  left:-5px;
+}
+
+.tl-entry {
+  width:calc(50% - 80px);
+  float:left; 
+  padding:20px;
+  clear:both;
+  text-align:right;
+
+}
+
+.tl-title {
+  font-family: 'Raleway', sans-serif;
+  font-size:32px;
+  margin-bottom:12px;
+  position: relative;
+  color: #F15524;
+  }
+>>>>>>> 320adfc9076ed94346ed1570218d3f82d57c888d
