@@ -56,6 +56,13 @@
   background: #000;
 }
 
+nav {
+  margin: auto;
+}
+
+.social {
+  float: right;
+}
 
 ul {
   list-style-type: none;
@@ -81,7 +88,6 @@ li a {
   text-decoration: none;
   text-transform: uppercase;
 }
-
 
 li.basic {
   padding-left: 29%;
@@ -168,10 +174,10 @@ p {
 }
 
 .first {
-  float:left;
+  float: left;
   font-size: 20px;
-  color:white;
-  font-family: Raleway;
+  color: white;
+  font-family: Raleway, serif;
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 10px;
@@ -181,15 +187,6 @@ p {
   background-color: #4e4e4e;
 }
 
-<<<<<<< HEAD
-nav {
-  margin:auto;
-}
-
-.social{
-  float:right;
-}
-=======
 .team-member {
   width: 20%;
   float: left;
@@ -202,14 +199,14 @@ nav {
 .team-member h3 {
   max-width: 200px;
   letter-spacing: -1px;
-  color: #F12224;
-  font-family: raleway;
-  font-style: normal; 
-  font-variant: normal; 
+  color: #f12224;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-variant: normal;
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px;
-  }
+}
 
 .team-photo {
   border-radius: 50%;
@@ -220,33 +217,30 @@ nav {
   transition: 0.1s transform ease-in-out;
 }
 
-
 /* STYLES FOR STORIES PAGES */
 
 /* STYLES FOR TIMELINE */
 
 .tl-entries {
-  width:calc(100% - 80px);
-  max-width:800px;
-  margin:auto;
+  width: calc(100% - 80px);
+  max-width: 800px;
+  margin: auto;
   position: relative;
-  left:-5px;
+  left: -5px;
 }
 
 .tl-entry {
-  width:calc(50% - 80px);
-  float:left; 
-  padding:20px;
-  clear:both;
-  text-align:right;
-
+  width: calc(50% - 80px);
+  float: left;
+  padding: 20px;
+  clear: both;
+  text-align: right;
 }
 
 .tl-title {
   font-family: 'Raleway', sans-serif;
-  font-size:32px;
-  margin-bottom:12px;
+  font-size: 32px;
+  margin-bottom: 12px;
   position: relative;
-  color: #F15524;
-  }
->>>>>>> 320adfc9076ed94346ed1570218d3f82d57c888d
+  color: #f15524;
+}
