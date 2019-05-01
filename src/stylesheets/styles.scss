@@ -51,6 +51,8 @@
   src: url("../fonts/webfonts/393DCF_7_0.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/393DCF_7_0.woff2") format("woff2"), url("../fonts/webfonts/393DCF_7_0.woff") format("woff"), url("../fonts/webfonts/393DCF_7_0.ttf") format("truetype");
 }
 
+/* NAV BAR */
+
 nav {
   margin: auto;
   display: flex;
@@ -81,17 +83,24 @@ li a {
   text-transform: uppercase;
 }
 
-li.social {
-  float: right;
-}
-
 li a:hover {
   background-color: #4e4e4e;
 }
 
-.active {
-  background-color: #4caf50;
+.first {
+  font-size: 20px;
+  color: white;
+  font-family: Raleway, serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
 }
+
+.first:hover {
+  background-color: #4e4e4e;
+}
+
+/* CONTENT PAGES */
 
 body {
   margin: 0;
@@ -162,20 +171,6 @@ p {
   text-align: left;
 }
 
-.first {
-  float: left;
-  font-size: 20px;
-  color: white;
-  font-family: Raleway, serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-left: 10px;
-}
-
-.first:hover {
-  background-color: #4e4e4e;
-}
-
 .team-member {
   width: 20%;
   float: left;
@@ -233,6 +228,8 @@ p {
   position: relative;
   color: #f15524;
 }
+
+/* STYLE FOR LANDING PAGE */
 
 .theme {
   position: relative;
