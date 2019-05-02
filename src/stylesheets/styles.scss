@@ -163,19 +163,31 @@ p {
   height: 150px;
   width: 100%;
   background-image: url(/images/building.jpg);
+  background-position: center;
+}
+
+#about-title p {
+  font-family: "CaeciliaLTPro-55Roman", serif;
+  font-size: 100%;
+  font-weight: 400;
 }
 
 #about-description {
-  background-color: #041e42;
-  padding: 20px;
-  line-height: 1.5em;
+  background-color: #f2dcc2;
+  line-height: 2em;
   text-align: left;
+  padding: 20px;
 }
 
 #about-description p {
   font-family: "CaeciliaLTPro-55Roman", serif;
   font-size: 100%;
   font-weight: 400;
+  text-decoration-color: black;
+}
+
+#about-body {
+  position: center;
 }
 
 .team-member {
@@ -188,7 +200,7 @@ p {
 }
 
 .team-member h3 {
-  color: #f12224;
+  color: #d98032;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-variant: normal;
@@ -196,6 +208,16 @@ p {
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px;
+  text-align: center;
+  position: center;
+}
+
+.team-member a {
+  color: #fff;
+}
+
+.team-member a:hover {
+  color: #8a6da6;
 }
 
 .team-photo {
@@ -280,4 +302,16 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* STYLE FOR FOOTER */
+
+footer {
+  position: absolute;
+  background-color: #8a6da6;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 7%;
 }
