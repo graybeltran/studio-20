@@ -53,9 +53,6 @@
 
 /* NAV BAR */
 
-.landing-page{
-}
-
 nav {
   margin: auto;
   display: flex;
@@ -165,6 +162,7 @@ p {
   text-align: center;
   height: 150px;
   width: 100%;
+  background-image: url(/images/building.jpg);
 }
 
 #about-description {
