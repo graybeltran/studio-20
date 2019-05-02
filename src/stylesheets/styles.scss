@@ -171,6 +171,12 @@ p {
   text-align: left;
 }
 
+#about-description p {
+  font-family: "CaeciliaLTPro-55Roman", serif;
+  font-size: 100%;
+  font-weight: 400;
+}
+
 .team-member {
   width: 20%;
   float: left;
@@ -181,12 +187,11 @@ p {
 }
 
 .team-member h3 {
-  max-width: 200px;
-  letter-spacing: -1px;
   color: #f12224;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-variant: normal;
+  font-size: 100%;
   font-weight: 700;
   text-transform: uppercase;
   padding: 10px;
@@ -204,6 +209,21 @@ p {
 /* STYLES FOR STORIES PAGES */
 
 /* STYLES FOR TIMELINE */
+
+.timeline-body {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 4px;
+    background-color: #fff;
+  }
+}
 
 .tl-entries {
   width: calc(100% - 80px);
@@ -239,7 +259,7 @@ p {
   width: 100%;
   object-fit: cover;
   height: 30vh;
-  transition: height .4s ease-in-out;
+  transition: height 0.4s ease-in-out;
 }
 
 .theme:hover img {
