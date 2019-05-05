@@ -144,6 +144,12 @@ h4 {
   font-family: "CaeciliaLTPro-55Roman", serif;
   font-size: 150%;
   font-weight: 400;
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
 }
 
 p {
