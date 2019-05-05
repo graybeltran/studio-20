@@ -215,10 +215,13 @@ p {
   font-size: large;
 }
 
-a:link {
+a:visited {
   color: #6080bf;
-  display: inline;
   clear: none;
+}
+
+a:active{
+  color:#d98032;
 }
 
 /* STYLES ABOUT PAGE */
