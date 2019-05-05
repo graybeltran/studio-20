@@ -58,6 +58,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  background-color: #000;
 }
 
 ul {
@@ -160,7 +164,7 @@ body {
 
 header {
   background-color: #1f1f21;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,18 +195,23 @@ h3 {
 
 h4 {
   font-family: "CaeciliaLTPro-55Roman", serif;
-  font-size: 150%;
+  font-size: 130%;
   font-weight: 400;
-}
-
-p {
-  font-family: "CaeciliaLTPro-55Roman", serif;
   margin: 0 auto;
   max-width: 600px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: medium;
+}
+
+p {
+  font-family: "CaeciliaLTPro-55Roman", serif;
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
 }
 
 /* STYLES ABOUT PAGE */
@@ -349,7 +358,6 @@ p {
 }
 
 .video-container {
-  width: 640px;
   margin: 0 auto;
   background-color: inherit;
   width: 50%;
