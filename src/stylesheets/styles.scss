@@ -173,7 +173,7 @@ p {
 }
 
 #about-description {
-  background-color: #f2dcc2;
+  background-color: #1f1f21;
   line-height: 2em;
   text-align: left;
   padding: 20px;
@@ -183,18 +183,22 @@ p {
   font-family: "CaeciliaLTPro-55Roman", serif;
   font-size: 100%;
   font-weight: 400;
-  text-decoration-color: black;
 }
 
 #about-body {
   position: center;
 }
 
+#about-instructors {
+  position: center;
+}
+
 .team-member {
-  width: 20%;
+  width: 25%;
   float: left;
   text-align: center;
-  margin-right: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   font-family: "CaeciliaLTPro-55Roman", serif;
   padding-bottom: 5em;
 }
@@ -235,6 +239,31 @@ p {
   max-width: 100%;
   height: auto;
   transition: 0.1s transform ease-in-out;
+}
+
+/* code for phone layout */
+@media (max-width: 850px) {
+  .team-member {
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .team-member {
+    float: none;
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .team-member h3,
+  .team-member span {
+    margin: 15px auto;
+  }
 }
 
 /* STYLES FOR STORIES PAGES */
@@ -333,6 +362,10 @@ p {
   background-color: #1f1f21;
   position: relative;
   border-radius: 6px;
+}
+
+.content a {
+  color: #328bd9;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
