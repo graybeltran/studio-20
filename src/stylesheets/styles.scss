@@ -194,6 +194,7 @@ p {
 }
 
 .team-member {
+  position: center;
   width: 25%;
   float: left;
   text-align: center;
@@ -236,7 +237,7 @@ p {
   border-radius: 50%;
   text-align: center;
   margin: auto;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   transition: 0.1s transform ease-in-out;
 }
