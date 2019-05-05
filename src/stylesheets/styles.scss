@@ -142,7 +142,7 @@ h3 {
 
 h4 {
   font-family: "CaeciliaLTPro-55Roman", serif;
-  font-size: 180%;
+  font-size: 150%;
   font-weight: 400;
 }
 
@@ -296,6 +296,14 @@ p {
 .container {
   padding: 10px 40px;
   position: relative;
+<<<<<<< HEAD
+  color: #f15524;
+}
+
+.video-container {
+  width: 640px;
+  margin: 0 auto;
+=======
   background-color: inherit;
   width: 50%;
 }
@@ -445,4 +453,5 @@ footer {
   text-align: center;
   width: 100%;
   height: 7%;
+>>>>>>> 0c2f7f74534d8a648937505802da9d83893dedd5
 }
