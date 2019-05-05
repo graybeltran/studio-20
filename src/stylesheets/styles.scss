@@ -352,9 +352,9 @@ p {
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
-    border: medium solid black;
+    border: medium solid #1f1f21;
     border-width: 10px 10px 10px 0;
-    border-color: transparent black transparent transparent;
+    border-color: transparent #1f1f21 transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
