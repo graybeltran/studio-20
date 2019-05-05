@@ -63,6 +63,7 @@ nav {
   width: 100%;
   background: black;
   background: linear-gradient(#555, black, black);
+  top: 0;
 }
 
 ul {
@@ -293,9 +294,7 @@ p {
 /* code for phone layout */
 @media (max-width: 850px) {
   .team-member {
-    width: 25%;
-    margin-left: 4%;
-    margin-right: 4%;
+    width: 33%;
     margin-bottom: 40px;
   }
 }
