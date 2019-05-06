@@ -154,6 +154,50 @@ li.basic a:hover {
   display: block;
 }
 
+/* STYLE FOR LANDING IMAGE */
+
+.theme {
+  position: relative;
+}
+
+.theme img {
+  width: 100%;
+  object-fit: cover;
+  height: 30vh;
+  transition: height 0.4s ease-in-out;
+}
+
+.theme:hover img {
+  width: 100%;
+  object-fit: cover;
+  height: 70vh;
+}
+
+.theme .text-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page .landing-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 /* CONTENT PAGES */
 
 body {
@@ -221,7 +265,11 @@ a.link {
 }
 
 a.link:visited {
+<<<<<<< HEAD
   color: #e7af7e;
+=======
+  color: #ffbf87;
+>>>>>>> 5eec0475052eb56381a5d54e4b10e44b5b6808af
 }
 
 /* STYLES ABOUT PAGE */
@@ -324,42 +372,18 @@ a.link:visited {
 
 /* STYLES FOR STORIES PAGES */
 
+#immigration-title {
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  background-image: url(/images/immigrant.jpg);
+  background-position: center;
+}
+
 .video-container {
   margin: 0 auto;
   background-color: inherit;
   width: 50%;
-}
-
-/* STYLE FOR LANDING PAGE */
-
-.theme {
-  position: relative;
-}
-
-.theme img {
-  width: 100%;
-  object-fit: cover;
-  height: 30vh;
-  transition: height 0.4s ease-in-out;
-}
-
-.theme:hover img {
-  width: 100%;
-  object-fit: cover;
-  height: 70vh;
-}
-
-.theme .text-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* STYLES FOR TIMELINE */
