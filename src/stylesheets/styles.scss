@@ -255,17 +255,17 @@ p {
   max-width: 900px;
   // display: flex;
   // flex-direction: column;
-  text-align: center;
+  text-align: left;
   font-size: large;
 }
 
-a.link:visited {
-  color: #6080bf;
+a.link {
+  color: #d98032;
   clear: none;
 }
 
-a.link:active {
-  color: #d98032;
+a.link:visited {
+  color: #FFBF87;
 }
 
 /* STYLES ABOUT PAGE */
@@ -367,6 +367,14 @@ a.link:active {
 }
 
 /* STYLES FOR STORIES PAGES */
+
+#immigration-title {
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  background-image: url(/images/immigrant.jpg);
+  background-position: center;
+}
 
 .video-container {
   margin: 0 auto;
