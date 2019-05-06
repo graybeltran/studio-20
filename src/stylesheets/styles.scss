@@ -195,7 +195,7 @@ li.basic a:hover {
   height: 100%;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 /* CONTENT PAGES */
@@ -203,7 +203,7 @@ li.basic a:hover {
 body {
   margin: 0;
   background-color: #000;
-  color: #e8e8e8;
+  color: #dadedf;
   font-family: "Raleway", sans-serif;
 }
 
@@ -265,7 +265,11 @@ a.link {
 }
 
 a.link:visited {
+<<<<<<< HEAD
+  color: #e7af7e;
+=======
   color: #ffbf87;
+>>>>>>> 5eec0475052eb56381a5d54e4b10e44b5b6808af
 }
 
 /* STYLES ABOUT PAGE */
