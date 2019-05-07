@@ -380,9 +380,21 @@ a.link:visited {
 }
 
 .video-container {
-  margin: 0 auto;
-  background-color: inherit;
-  width: 50%;
+  position: relative;
+  padding-bottom: 45%;
+  height: 0;
+  overflow: hidden;
+  max-width: 90%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
 }
 
 .imgnav {
