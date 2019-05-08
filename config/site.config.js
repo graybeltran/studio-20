@@ -9,13 +9,13 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Static Site Boilerplate',
+  site_name: 'The Great Divide',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A modern boilerplate for static website development',
+  site_description: 'Exposing vast inequities in social mobility, job discrimination, housing and education in New York City.',
 
   // Your website's URL, used for sitemap
-  site_url: '',
+  site_url: 'http://greatdivide.nyc',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',

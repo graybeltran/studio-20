@@ -1,7 +1,7 @@
 default:
-  host: "ftp.yourwebsite.com"
-  user: "username"
-  pass: "password"
+  host: "ftp.greatdivide.nyc"
+  user: "gray@greatdivide.nyc"
+  pass: "NYUStudio20"
   path:
     local: "dist/"
     remote: "public_html/"
