@@ -415,6 +415,10 @@ a.link:visited {
   transition: 0.1s transform ease-in-out;
 }
 
+.imgnav img:hover {
+      transform: scale(1.2, 1.2);
+    }
+
 .imgnav h2 {
   color: #fff;
   font-family: "Raleway", sans-serif;
