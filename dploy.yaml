@@ -1,7 +1,7 @@
 default:
-  host: "ftp.greatdivide.nyc"
-  user: "gray@greatdivide.nyc"
-  pass: "NYUStudio20"
+  host: ""
+  user: ""
+  pass: ""
   path:
     local: "dist/"
     remote: "public_html/"
